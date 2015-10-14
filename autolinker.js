@@ -113,7 +113,7 @@
  * @constructor
  * @param {Object} [config] The configuration options for the Autolinker instance, specified in an Object (map).
  */
-var Autolinker = function (cfg) {
+Autolinker = function (cfg) {
   Autolinker.Util.assign(this, cfg); // assign the properties of `cfg` onto the Autolinker instance. Prototype properties will be used for missing configs.
 
   // Validate the value of the `hashtag` cfg.
